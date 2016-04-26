@@ -7,7 +7,8 @@ body {background-color: ##b3ffb3;
 
 .container {
 	width: 80%; /* makes all content take up 80% no matter how wide the page is */
-	margin: 0 auto; /* removes top and bottom margins, left/right margins automatically determined */
+	margin: 0 auto; 
+	/* removes top and bottom margins, left/right margins automatically determined */
 }
 
 /* styles for header and navigation */
@@ -68,7 +69,7 @@ footer {
 
 div.background {
 
-    background: url(images/fern.jpg) repeat;
+    background: url(milkweed_home.jpg) repeat;
     border: 3px solid #66cc00;
 }
 div.transbox {
@@ -87,8 +88,21 @@ div.transbox li {
     font-weight: bold;
 }
 
+div.homenav {
+	color: #ccc;
+	background: url(milkweed_home.jpg) transparent;
+	border-radius: 90%;
+	border-style: dotted; 
+}
+
+div.homenav li {
+	text-align:center;
+	color:#fff;
+}
+
+
 div.imgnav { 
-	color:#purple;
+	color:purple;
 	background: url(images/iris.jpg);
 	border-radius: 90%;
 	border-style: dotted;
@@ -101,8 +115,11 @@ div.imgnav li {
 	color:#fff;
 }
 
-p {
-	float: center;
-	text-decoration-color: #ccc;
+p.small { font-size: 9pt;
+	text-align: center;
 }
 
+
+div.annuals{
+	background: url();
+}
