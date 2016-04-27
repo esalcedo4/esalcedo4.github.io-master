@@ -139,6 +139,11 @@ div.text{
     text-align: center;
 }
 
-div.annuals{
-	background: url();
+div.middle{
+	background-color: #4C7153;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
