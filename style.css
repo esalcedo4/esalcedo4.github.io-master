@@ -109,6 +109,9 @@ div.imgnav {
 
 }
 
+h3 {
+	text-align: center;	
+}
 
 div.imgnav li {
 	text-align: center;
@@ -119,6 +122,22 @@ p.small { font-size: 9pt;
 	text-align: center;
 }
 
+div.img { 
+	float: right;
+} 
+div.img2	{
+	float: left;
+}
+
+
+div.text{
+    float: right;
+    width: 120px;
+    margin: 0 0 15px 20px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
 
 div.annuals{
 	background: url();
